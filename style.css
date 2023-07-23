@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.container{
+    height: 100%;
+    background-color: rgb(29,29,35);
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.heading{
+    width: 328px;
+    height: 42px;
+}
+.heading h1{
+    font-family: Roboto;
+   font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.set-timer, .active-timer-section , .end-timer-section{
+    width: 849px;
+    height: 132px;
+    border-radius: 20px;
+}
+.set-timer, .active-timer-section {
+    background: rgba(52, 52, 74, 1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title-ele{
+    width: 142px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left; 
+    
+}
+#timer{
+    display: flex;
+    width: 309px;
+    height: 56px;
+    
+    font-family: Roboto;
+    /* font-size: 48px; */
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center; 
+    color: white;  
+}
+#timer div input{
+   font-size: 24px;
+   background: rgba(52, 52, 74, 1);
+   color: white;
+   text-align: center;
+}
+input::placeholder{
+    color: white;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.timer-section{
+    display: flex;
+   
+}
+#start-btn , #delete-btn , #stop-btn{
+    width: 124px;
+    height: 52px;
+    border-radius: 26px;
+    background: rgba(240, 247, 87, 1);
+    font-size: 16px;
+}
+.display-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 20px;
+}
+.a{
+    width: 413px;
+    height: 66px;
+    border-radius: 50px;
+    background: rgba(57, 57, 62, 1);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.a h3{
+    /* width: 321.3697814941406px;
+    height: 28px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center; */
+    font-size: 24px;
+}
+input{
+    border: none;
+}
+#hr , #min, #sec{
+    padding: 5px 25px;
+    font-size: 30px;
+}
+.end-timer-section{
+    background: rgba(240, 247, 87, 1);
+   color: black;
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   /* display: none; */
+}
+#stop-btn{
+    background: rgb(52,52,74);
+    color: white;
+}
+.end-timer-section h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}

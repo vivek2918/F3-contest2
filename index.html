@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Timer App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-items heading">
+            <h1>Multiple Timer App</h1>
+        </div>
+        <form class="container-items set-timer" id="form">
+            <label id="title-ele">Set Time: </label>
+            <div id="timer">    
+                <div id="timer-section">
+                    <input type="number" id="hours" min="0" max="23" step="1"  placeholder="HH" required>
+                    <label>:</label>
+                  </div>
+                  <div id="timer-section">
+                    <input type="number" id="minutes" min="0" max="59" step="1" required placeholder="MM">
+                    <label for="hours">:</label>
+                  </div>
+                  <div id="timer-section">
+                    <input type="number" id="seconds" min="0" max="59" step="1" required placeholder="SS">
+                  </div>
+                </div>
+            <input type="submit" id="start-btn" value="Set">
+            
+        </form>
+        <div class="container-items display-section" id="display-section">
+            <div class="a"><h3>Current Timers</h3></div>
+            <div class="timer-display-section" id="timer-display-section">
+                <!-- <div class="active-timer-section">
+                    <label>Time left: </label>
+                    <div id="timer">    
+                        <div id="timer-section">
+                             <span id="hr">12</span>
+                            <label for="hours">:</label>
+                          </div>
+                          <div id="timer-section">
+                            <span id="min">30</span>
+                            <label for="hours">:</label>
+                          </div>
+                          <div id="timer-section">
+                            <span id="sec">59</span>
+                          </div>
+                        </div>
+                    <button id="delete-btn">Delete</button>
+                </div> -->
+                <!-- <div class="end-timer-section">
+                    <h2>Timer Is Up !</h2>
+                    <audio controls autoplay loop style="display: none;">
+                     <source src="https://mp3ringtonesdownload.net/wp-content/uploads/2023/07/Clock-Alarm-Classic.mp3" type="audio/mpeg">
+                    </audio> 
+                    <button id="stop-btn">Stop</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
